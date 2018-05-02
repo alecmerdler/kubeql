@@ -17,10 +17,12 @@
   },
   "homepage": "https://github.com/alecmerdler/kubeql#readme",
   "dependencies": {
-    "graphql": "^0.13.2"
+    "graphql": "^0.13.2",
+    "js-yaml": "^3.11.0"
   },
   "devDependencies": {
     "@types/graphql": "^0.13.0",
+    "@types/js-yaml": "^3.11.1",
     "@types/node": "^10.0.2",
     "ts-node": "^6.0.2",
     "typescript": "^2.8.3"
