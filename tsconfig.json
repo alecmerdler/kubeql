@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "target": "esnext",
+    "lib": ["es2015"],
+    "allowJs": true,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "noUnusedLocals": true
+  },
+  "exclude": [
+    "node_modules",
+  ],
+  "include": [
+    "**/*.js",
+    "**/*.ts",
+  ]
+}

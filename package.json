@@ -1,0 +1,28 @@
+{
+  "name": "kubeql",
+  "version": "0.0.1",
+  "description": "Query Kubernetes using GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alecmerdler/kubeql.git"
+  },
+  "author": "Alec Merdler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alecmerdler/kubeql/issues"
+  },
+  "homepage": "https://github.com/alecmerdler/kubeql#readme",
+  "dependencies": {
+    "graphql": "^0.13.2"
+  },
+  "devDependencies": {
+    "@types/graphql": "^0.13.0",
+    "@types/node": "^10.0.2",
+    "ts-node": "^6.0.2",
+    "typescript": "^2.8.3"
+  }
+}
